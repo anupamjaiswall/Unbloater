@@ -80,4 +80,7 @@ Choose option *8* to create ADB backup, select *back up my data* on your device(
 ![ADB restore](https://github.com/anupamjaiswall/Unbloater/blob/main/media/9.gif?raw=true)
 Choose option *9*, give path of backup file, selcet restore my data on your device(give password if you had given while creating the backup)
 
+# GNU General Public License
+Feel free to use and contribute 😉
+
 ### Did you like this project? How about getting me a [coffee🍵](https://www.buymeacoffee.com/anupamjaiswall)?
