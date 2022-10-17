@@ -40,7 +40,7 @@ function check_temp(){
 function remove(){
 		adb -s $device_name shell pm list packages | sed 's/package://g' | nl
 		echo
-		echo "enter the package number"
+		echo "Enter the package number(s)"
 		echo "SYNTAX [num1] [num2]...."
 		echo
 
@@ -146,11 +146,11 @@ function backup(){
 	done
 
 	cd ..
-	echo "Backup created in apk_backup folder"
+	echo "Backup created in apk_backup directory"
 }
 
 function device_selection(){
-  echo "Enable usb debugging on your phone, then connect it with your pc and then press any key to continue :)"
+  echo "Enable USB debugging on your phone, then connect it with your pc and then press any key to continue :)"
   read 
   number_of_devices=`adb devices | grep -w device | wc -l`
   if [[ $number_of_devices == 1 ]]
@@ -167,14 +167,14 @@ function device_selection(){
   else
     echo "Either device not found or something bad occured"
     adb devices
-    echo "exiting......."
+    echo "Exiting......."
     fi
 }
 
 function check_adb(){
   if ! command -v adb &> /dev/null
   then
-    echo "Install adb first"
+    echo "Install ADB first"
     loop
   fi
 }
@@ -184,19 +184,19 @@ function loop(){
 	do
 		echo
 		echo "Select an option... "
-		echo "0)   To install adb on debian based distros"
+		echo "0)   To install ADB on debian based distros"
 		echo "D/d) To detect or select a device"
-		echo "1)   To enter adb shell (type \"exit\" when you want to exit)"
+		echo "1)   To execute ADB shell (type \"exit\" when you want to exit)"
 		echo "2)   To list packages"
 		echo "3)   To remove package(s)"
 		echo "4)   To search for package number"
-		echo "5)   To install single or list of apk"
-		echo "6)   To install multiple apk from a folder"
-		echo "7)   To create backup(extraction of apk) of all apk"
-		echo "8)   To create adb backup"
-		echo "9)   To restore adb backup"
+		echo "5)   To install single or list of APKs"
+		echo "6)   To install multiple APK from a folder"
+		echo "7)   To create backup(extraction of APK) of all APKs"
+		echo "8)   To create ADB backup"
+		echo "9)   To restore ADB backup"
 		echo "10)  To get help"
-    echo "11)  Exit"
+    		echo "11)  Exit"
 		read option
 
     #to check whether adb installed or not on selecting options except 0 and 10
