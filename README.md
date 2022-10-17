@@ -20,8 +20,7 @@
 1. Open your terminal.
 2. Run the following commands :
 ```bash
-git clone https://github.com/anupamjaiswall/Unbloater.git
-cd Unbloater
+wget https://raw.githubusercontent.com/anupamjaiswall/Unbloater/main/Unbloater.sh
 bash Unbloater.sh
 ```
 
