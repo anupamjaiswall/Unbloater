@@ -30,7 +30,7 @@ Choose 0 from the main menu to install ADB on debian based distros.
 
 # D/d) Detecting or selecting a device :
 ![detection](https://github.com/anupamjaiswall/Unbloater/blob/main/media/2detection.png?raw=true)
-Enable [USB debugging](https://www.embarcadero.com/starthere/xe5/mobdevsetup/android/en/enabling_usb_debugging_on_an_android_device.html) on your phone from developer options and Choose *d* or *D* to detect plugged in availble devices.
+Enable [USB debugging](https://www.embarcadero.com/starthere/xe5/mobdevsetup/android/en/enabling_usb_debugging_on_an_android_device.html) on your phone from developer options and Choose *d* or *D* to detect plugged in available devices.
 
 # 1) To access the ADB shell :
 ![ADB shell](https://github.com/anupamjaiswall/Unbloater/blob/main/media/1adb_shell.png?raw=true)
