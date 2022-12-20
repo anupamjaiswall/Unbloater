@@ -34,7 +34,7 @@ Enable [USB debugging](https://www.embarcadero.com/starthere/xe5/mobdevsetup/and
 
 # 1) To access the ADB shell :
 ![ADB shell](https://github.com/anupamjaiswall/Unbloater/blob/main/media/1adb_shell.png?raw=true)
-Choose *1* execute the ADB shell
+Choose *1* to execute the ADB shell
 
 # 2) To list packages :
 ![packages](https://github.com/anupamjaiswall/Unbloater/blob/main/media/2.gif?raw=true)
