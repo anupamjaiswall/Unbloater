@@ -13,7 +13,7 @@
         3.  No more advertisements by those bloatwares.
 
 * Launch the ADB shell.
-* Extract APK with user data.
+* Extract with user data.
 * To create an ADB backup and restore the backup.
 
 # Installtion of Unbloater :
@@ -53,7 +53,7 @@ The removal of some packages can make your device brick, so please don't remove 
 
 # 5) Installing a single or multiple APKs :
 ![install list of APKs](https://github.com/anupamjaiswall/Unbloater/blob/main/media/5.gif?raw=true)
-Choose option *5* to install multiple apks.
+Choose option *5* to install multiple APKs.
 **Syntax**
 ```bash
 path1/of/file.apk path2/of/file2.apk
@@ -61,7 +61,7 @@ path1/of/file.apk path2/of/file2.apk
 
 # 6) Installing multiple APKs from a directory :
 ![installing APKs from a directory](https://github.com/anupamjaiswall/Unbloater/blob/main/media/6.gif?raw=true)
-Choose option *6* to install multiple apks from a directory.
+Choose option *6* to install multiple APKs from a directory.
 **Syntax**
 ```bash
 path/of/the/directory/
@@ -77,7 +77,7 @@ Choose option *8* to create ADB backup, select *back up my data* on your device(
 
 # 9) To restore the ADB backup, do the following :
 ![ADB restore](https://github.com/anupamjaiswall/Unbloater/blob/main/media/9.gif?raw=true)
-Choose option *9*, give path of backup file, selcet restore my data on your device(give password if you had given while creating the backup)
+Choose option *9*, give path of backup file, select restore my data on your device(give password if you had given while creating the backup)
 
 # GNU General Public License
 Feel free to use and contribute 😉
